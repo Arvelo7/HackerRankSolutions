@@ -1,0 +1,48 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+
+
+    private static final Scanner scanner = new Scanner(System.in);//Initalize scanner object of the Scanner class
+
+    public static void main(String[] args) {//main method
+        int N = scanner.nextInt();//user input for an integer
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        scanner.close();
+        
+        if(N < 1 || N > 100)//Handling the constraints
+        {
+            System.out.println("The input is outside of the range.");
+            System.exit(0);
+        }
+        
+        
+            if (N%2 != 0) //if odd
+                {
+                    System.out.println("Weird");
+                }
+            while (N%2 == 0)// is even
+            {
+                if ((N >= 2 & N <= 5) || (N > 20))
+                {
+                    System.out.println("Not Weird");
+                    break;
+                }
+                if (N >= 6 & N <= 20)
+                {
+                    System.out.println("Weird");
+                    break;
+                }
+            }
+   
+        
+    }
+}
+
