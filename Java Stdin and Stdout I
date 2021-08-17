@@ -8,6 +8,7 @@ public class Solution
         int a = scan.nextInt();//Read first integer input
         int b = scan.nextInt();//Read second integer input
         int c = scan.nextInt();//Read third integer input
+        scanner.close();//Close scanner
         
         System.out.println(a);//Print first integer input
         System.out.println(b);//Print second integer input
