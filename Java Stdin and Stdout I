@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);//intiallize object scan of the Scanner class
+        int a = scan.nextInt();//Read first integer input
+        int b = scan.nextInt();//Read second integer input
+        int c = scan.nextInt();//Read third integer input
+        
+        System.out.println(a);//Print first integer input
+        System.out.println(b);//Print second integer input
+        System.out.println(c);//Print third integer innput
+    }
+}
