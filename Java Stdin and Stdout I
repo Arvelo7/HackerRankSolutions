@@ -12,6 +12,6 @@ public class Solution
         
         System.out.println(a);//Print first integer input
         System.out.println(b);//Print second integer input
-        System.out.println(c);//Print third integer innput
+        System.out.println(c);//Print third integer input
     }
 }
